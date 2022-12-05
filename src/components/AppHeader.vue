@@ -29,9 +29,9 @@ console.log(store.menu_voice)
     </div>
 
     <div class="header_bar_right">
-      <div>tasto 1</div>
-      <div>tasto 2"</div>
-      <div>tasto 3</div>
+      <div><i class="fa-solid fa-magnifying-glass"></i></div>
+      <div><i class="fa-solid fa-briefcase"></i></div>
+      <div><i class="fa-solid fa-bars"></i></div>
     </div>
   </div>
 
@@ -75,13 +75,14 @@ header{
 }
 .header_bar{
   display: flex;
+  padding-top: 30px;
 }
 .header_bar div{
   border: 1px solid black;
   color: white;
 }
 .header_bar_left{
-  width: 30%;
+  width: 20%;
   background-color: black;
   text-align: center;
 }
@@ -89,7 +90,7 @@ header{
   max-width: 60%;
 }
 .header_bar_middle{
-  width: 50%;
+  width: 60%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -101,5 +102,10 @@ header{
 .header_bar_right{
   width: 20%;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header_bar_right i{
+  font-size: 20px;
 }
 </style>
