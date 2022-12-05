@@ -1,6 +1,6 @@
 import { reactive } from "vue";
 export const store = reactive({
-    searchText:"",
-    characters: [],
-    series:[]
+    menu_voice: [
+        `home`, `courses`,`instructors`, `events`, `pages`, `elements`
+    ]
 });

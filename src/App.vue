@@ -1,5 +1,5 @@
 <script>
-import store from "../src/store.js"
+import {store} from "./store.js"
 import AppMain from "./components/AppMain.vue";
 import AppHeader from "./components/AppHeader.vue";
 import AppFooter from "./components/AppFooter.vue";
@@ -18,6 +18,8 @@ export default {
     }
   }
 }
+
+
 </script>
 
 <template>

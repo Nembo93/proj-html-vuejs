@@ -1,7 +1,19 @@
 <script>
+import {store} from "../store.js"
+
 export default {
-    name: `AppHeader`
+    name: `AppHeader`,
+
+    data (){
+    return{
+      store
+    }
+  }
 }
+
+console.log(store.menu_voice)
+
+
 </script>
 
 <template>
