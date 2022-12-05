@@ -1,7 +1,7 @@
 <script>
 import {store} from "./store.js"
-import AppMain from "./components/AppMain.vue";
 import AppHeader from "./components/AppHeader.vue";
+import AppMain from "./components/AppMain.vue";
 import AppFooter from "./components/AppFooter.vue";
 
 export default {
@@ -23,8 +23,8 @@ export default {
 </script>
 
 <template>
-  <AppMain/>
   <AppHeader/>
+  <AppMain/>
   <AppFooter/>
 </template>
 
