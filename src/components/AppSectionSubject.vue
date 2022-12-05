@@ -5,7 +5,7 @@ export default{
 </script>
 
 <template>
-    <section>
+    <section class="section_subject">
         <div class="subject">
             <a href="" class="subject">
                 <img src="../assets/h5-custom-icon-1.png" alt="">
@@ -52,7 +52,7 @@ export default{
 </template>
 
 <style>
-section{
+.section_subject{
     display: flex;
     justify-content: space-between;
     padding-top: 30px;

@@ -1,0 +1,31 @@
+<script>
+export default{
+    name: `AppSection1`
+}
+</script>
+
+<template>
+<section>
+    <h2>The Trusted Name <br> for In-Home Tutoring.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum fugit velit qui deserunt modi. Aliquid id repellat exercitationem nemo saepe alias, dolore unde natus quaerat repellendus fugiat assumenda, adipisci maxime.</p>
+    <a href="">LEARN MORE</a>
+    <img src="../assets/h1-slide-3-background.jpg" alt="">
+</section>
+</template>
+
+<style>
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+h2, p, a{
+    margin-bottom: 20px;
+}
+img{
+    margin-top: 100px;
+}
+section{
+    padding-bottom: 100px;
+}
+</style>

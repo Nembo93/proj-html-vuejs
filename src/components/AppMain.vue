@@ -1,9 +1,11 @@
 <script>
 import AppSectionSubject from "./AppSectionSubject.vue";
+import AppSection1 from "./AppSection1.vue";
 export default {
     name: `AppMain`,
     components:{
-      AppSectionSubject
+      AppSectionSubject,
+      AppSection1
     }
 }
 </script>
@@ -11,6 +13,7 @@ export default {
 <template>
   <div class="container">
     <AppSectionSubject/>
+    <AppSection1/>
   </div>
 </template>
 
