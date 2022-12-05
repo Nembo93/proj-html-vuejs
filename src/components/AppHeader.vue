@@ -19,7 +19,8 @@ console.log(store.menu_voice)
 </script>
 
 <template>
-  <div class="header_bar">
+  <header>
+    <div class="header_bar">
     <div class="header_bar_left">
       <img src="../assets/logo-light.png" alt="">
     </div>
@@ -27,11 +28,46 @@ console.log(store.menu_voice)
     <div class="header_bar_middle">
       <a href="" v-for="voice in store.menu_voice">{{voice}}</a>
     </div>
-    <div class="header_bar_right">right</div>
+
+    <div class="header_bar_right">
+      <div>tasto 1</div>
+      <div>tasto 2"</div>
+      <div>tasto 3</div>
+    </div>
   </div>
+
+  <div class="header_core">
+    <h1>Contemporary Ideas</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita vitae consectetur aperiam corporis molestias nemo alias accusantium sint assumenda eveniet voluptatum eligendi reiciendis, dolore doloribus ex officiis, laborum amet nostrum!</p>
+    <a class="header_button" href="">REGISTER NOW</a>
+  </div>
+  </header>
+  
 </template>
 
 <style>
+header{
+  background-image: url(../assets/h5-slide-3-background.jpg);
+}
+.header_core{
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 80px;
+  color: white;
+}
+
+.header_core p{
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.header_button{
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  padding: 10px 20px;
+}
 .header_bar{
   display: flex;
 }
@@ -57,6 +93,7 @@ console.log(store.menu_voice)
 }
 .header_bar_right{
   width: 20%;
+  display: flex;
 }
 
 </style>
