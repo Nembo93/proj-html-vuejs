@@ -9,7 +9,6 @@ export default {
       store,
     }
   },
-
   
 }
 
@@ -40,6 +39,12 @@ console.log(store.menu_voice)
     <h1>Contemporary Ideas</h1>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita vitae consectetur aperiam corporis molestias nemo alias accusantium sint assumenda eveniet voluptatum eligendi reiciendis, dolore doloribus ex officiis, laborum amet nostrum!</p>
     <a class="header_button" href="">REGISTER NOW</a>
+  </div>
+
+  <div>
+    <input type="radio" name="header_scroll" class="header_scroll_btn">
+    <input type="radio" name="header_scroll" class="header_scroll_btn">
+    <input type="radio" name="header_scroll" class="header_scroll_btn">
   </div>
   </header>
   
@@ -73,6 +78,7 @@ header{
 }
 .header_bar div{
   border: 1px solid black;
+  color: white;
 }
 .header_bar_left{
   width: 30%;
@@ -90,10 +96,10 @@ header{
 }
 .header_bar_middle a{
   text-decoration: none;
+  color: white;
 }
 .header_bar_right{
   width: 20%;
   display: flex;
 }
-
 </style>
