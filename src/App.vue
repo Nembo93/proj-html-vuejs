@@ -9,7 +9,7 @@ export default {
   components :{
     AppHeader,
     AppMain,
-    AppFooter
+    AppFooter,
   },
 
   data (){
@@ -26,6 +26,7 @@ export default {
   <AppHeader/>
   <AppMain/>
   <AppFooter/>
+  
 </template>
 
 <style>

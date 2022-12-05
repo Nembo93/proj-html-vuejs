@@ -1,13 +1,22 @@
 <script>
+import AppSectionSubject from "./AppSectionSubject.vue";
 export default {
-    name: `AppMain`
+    name: `AppMain`,
+    components:{
+      AppSectionSubject
+    }
 }
 </script>
 
 <template>
-  <h1>Main</h1>
+  <div class="container">
+    <AppSectionSubject/>
+  </div>
 </template>
 
 <style>
-
+.container{
+  padding-left: 30px;
+  padding-right: 30px;
+}
 </style>
