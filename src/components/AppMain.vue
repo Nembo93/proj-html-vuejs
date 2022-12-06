@@ -2,12 +2,14 @@
 import AppSectionSubject from "./AppSectionSubject.vue";
 import AppSection1 from "./AppSection1.vue";
 import AppSection2 from "./AppSection2.vue";
+import AppSection3 from "./AppSection3.vue";
 export default {
     name: `AppMain`,
     components:{
       AppSectionSubject,
       AppSection1,
-      AppSection2
+      AppSection2,
+      AppSection3
     }
 }
 </script>
@@ -17,6 +19,7 @@ export default {
     <AppSectionSubject/>
     <AppSection1/>
     <AppSection2/>
+    <AppSection3/>
   </div>
 </template>
 
