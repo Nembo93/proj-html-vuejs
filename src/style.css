@@ -9,6 +9,9 @@
 .disp_flex{
   display: flex;
 }
+.space_bet{
+  justify-content: space-between;
+}
 .disp_block{
   display: block;
 }
