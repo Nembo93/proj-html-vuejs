@@ -24,6 +24,7 @@ h2, p, a{
 }
 img{
     margin-top: 100px;
+    max-width: 1200px;
 }
 section{
     padding-bottom: 100px;

@@ -4,4 +4,17 @@
   padding: 0;
 }
 
+/* Common classes */
 
+.disp_flex{
+  display: flex;
+}
+.disp_block{
+  display: block;
+}
+.txt_center{
+  text-align: center;
+}
+.txt_left{
+  text-align: left;
+}
