@@ -15,35 +15,35 @@ export default{
 
         <div class="subject">
             <a href="" class="subject">
-                <img src="../assets/h5-custom-icon-1.png" alt="">
+                <img src="../assets/h5-custom-icon-2.png" alt="">
                 <h5>Software</h5>
             </a>
         </div>
 
         <div class="subject">
             <a href="" class="subject">
-                <img src="../assets/h5-custom-icon-1.png" alt="">
+                <img src="../assets/h5-custom-icon-3.png" alt="">
                 <h5>Business</h5>
             </a>
         </div>
 
         <div class="subject">
             <a href="" class="subject">
-                <img src="../assets/h5-custom-icon-1.png" alt="">
+                <img src="../assets/h5-custom-icon-4.png" alt="">
                 <h5>Chemistry</h5>
             </a>
         </div>
 
         <div class="subject">
             <a href="" class="subject">
-                <img src="../assets/h5-custom-icon-1.png" alt="">
+                <img src="../assets/h5-custom-icon-5.png" alt="">
                 <h5>Science</h5>
             </a>
         </div>
 
         <div class="subject">
             <a href="" class="subject">
-                <img src="../assets/h5-custom-icon-1.png" alt="">
+                <img src="../assets/h5-custom-icon-6.png" alt="">
                 <h5>DIY&Craft</h5>
             </a>
         </div>
@@ -62,15 +62,17 @@ export default{
     background-color: lightblue;
     width: auto;
     text-align: center;
-    padding: 20px 10px;
+    padding: 10px 20px;
 }
 .subject a{
     text-decoration: none;
 }
-/* .subject img{
-    margin-bottom: 10px;
-} */
+
 .subject h5{
     color: black;
+    margin-top: 20px;
+}
+.subject img{
+    display: block;
 }
 </style>

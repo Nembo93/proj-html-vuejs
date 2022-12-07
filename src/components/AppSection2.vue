@@ -34,19 +34,24 @@ export default{
     </section>
 </template>
 
-<style>
+<style scoped>
 .section_2{
     display: flex;
 }
-.box_section_2 h2, p{
-    margin-bottom: 30px;
+.box_section_2 > h2, p{
+    margin-bottom: 50px;
+    text-align: left;
+    padding-right: 50px;
 }
 .box_section_2{
     width: 50%;
     border: 1px solid black;
 }
+.box_section_2 h2{
+    margin-top: 30px;
+}
 .sec2_img{
-    max-width: 400px;
+    max-width: 350px;
     margin: auto;
 }
 .sec2_count{
@@ -58,7 +63,7 @@ export default{
 .sec2_args_box{
     width: 50%;
 }
-.box_section_2 h2, p, span{
+.box_section_2 > span{
     text-align: left;
     padding-right: 50px;
 }

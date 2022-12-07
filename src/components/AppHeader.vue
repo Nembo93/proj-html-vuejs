@@ -18,22 +18,22 @@ console.log(store.menu_voice)
 </script>
 
 <template>
-  <header>
+  <header class="header_app_head">
     <div class="header_bar">
-    <div class="header_bar_left">
-      <img src="../assets/logo-light.png" alt="">
-    </div>
+      <div class="header_bar_left">
+        <img src="../assets/logo-light.png" alt="">
+      </div>
 
-    <div class="header_bar_middle">
-      <a href="" v-for="voice in store.menu_voice">{{voice}}</a>
-    </div>
+      <div class="header_bar_middle">
+        <a href="" v-for="voice in store.menu_voice">{{voice}}</a>
+      </div>
 
-    <div class="header_bar_right">
-      <div><i class="fa-solid fa-magnifying-glass"></i></div>
-      <div><i class="fa-solid fa-briefcase"></i></div>
-      <div><i class="fa-solid fa-bars"></i></div>
+      <div class="header_bar_right">
+        <div><i class="fa-solid fa-magnifying-glass"></i></div>
+        <div><i class="fa-solid fa-briefcase"></i></div>
+        <div><i class="fa-solid fa-bars"></i></div>
+      </div>
     </div>
-  </div>
 
   <div class="header_core">
     <h1>Contemporary Ideas</h1>
@@ -50,28 +50,30 @@ console.log(store.menu_voice)
   
 </template>
 
-<style>
-header{
+<style scoped>
+.header_app_head{
   background-image: url(../assets/h5-slide-3-background.jpg);
+  background-size: 100%;
 }
 .header_core{
   text-align: center;
   padding-top: 100px;
   padding-left: 200px;
   padding-right: 200px;
-  padding-bottom: 80px;
+  padding-bottom: 200px;
   color: white;
 }
 
 .header_core p{
-  margin-top: 40px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 80px;
 }
 .header_button{
   text-decoration: none;
   color: white;
   background-color: blue;
-  padding: 10px 20px;
+  padding: 20px 30px;
+  margin-bottom: 100px;
 }
 .header_bar{
   display: flex;
@@ -84,13 +86,16 @@ header{
 .header_bar_left{
   width: 20%;
   background-color: black;
-  text-align: center;
+  /* text-align: center; */
+  align-items: center;
 }
 .header_bar_left img{
   max-width: 60%;
+  display: block;
+  margin: auto;
 }
 .header_bar_middle{
-  width: 60%;
+  width: 65%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -100,7 +105,7 @@ header{
   color: white;
 }
 .header_bar_right{
-  width: 20%;
+  width: 15%;
   display: flex;
   justify-content: space-around;
   align-items: center;
