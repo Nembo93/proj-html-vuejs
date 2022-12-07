@@ -9,29 +9,61 @@ export default{
         <h1>Section 4</h1>
         <div class="disp_flex">
             <div class="sec4_col sec4_col_left">
-                <div class="sec4_box disp_flex">
-                    <div class="hover_bar">
+
+                <div class="sec4_box disp_flex sec4box1">
+                    <div class="hover_bar1">
                         
                     </div>
                     <div>
                         <h3>What We Do</h3>
                     </div>
                 </div>
-                <div class="sec4_box">
-                    <h4>Degree Programme</h4>
+
+                <div class="sec4_box disp_flex sec4box2">
+                    <div class="hover_bar2">
+                        
+                    </div>
+                    <div>
+                        <h3>Degree Programme</h3>
+                    </div>
                 </div>
-                <div class="sec4_box">
-                    <h4>Career Achievements</h4>
+
+                <div class="sec4_box disp_flex sec4box3">
+                    <div class="hover_bar3">
+                        
+                    </div>
+                    <div>
+                        <h3>Career Achievementso</h3>
+                    </div>
                 </div>
-                <div class="sec4_box">
-                    <h4>Personal Management</h4>
+
+                <div class="sec4_box disp_flex sec4box4">
+                    <div class="hover_bar4">
+                        
+                    </div>
+                    <div>
+                        <h3>Personal Management</h3>
+                    </div>
                 </div>
-                <div class="sec4_box">
-                    <h4>Step To Succes</h4>
+
+                <div class="sec4_box disp_flex sec4box5">
+                    <div class="hover_bar5">
+                        
+                    </div>
+                    <div>
+                        <h3>Step To Succes</h3>
+                    </div>
                 </div>
-                <div class="sec4_box">
-                    <h4>Knowledge Transfer</h4>
+
+                <div class="sec4_box disp_flex sec4box6">
+                    <div class="hover_bar6">
+                        
+                    </div>
+                    <div>
+                        <h3>Knowledge Transfer</h3>
+                    </div>
                 </div>
+                
             </div>
 
             <div class="sec4_col sec4_col_right">
@@ -90,9 +122,63 @@ export default{
 }
 
 
-.hover_bar{
+.sec4box1:hover .hover_bar1{
+    display: block;
+}
+.hover_bar1{
     width: 10px;
     background-color: aqua;
     margin-right: 20px;
+    display: none;
+}
+
+.sec4box2:hover .hover_bar2{
+    display: block;
+}
+.hover_bar2{
+    width: 10px;
+    background-color: aqua;
+    margin-right: 20px;
+    display: none;
+}
+
+.sec4box3:hover .hover_bar3{
+    display: block;
+}
+.hover_bar3{
+    width: 10px;
+    background-color: aqua;
+    margin-right: 20px;
+    display: none;
+}
+
+.sec4box4:hover .hover_bar4{
+    display: block;
+}
+.hover_bar4{
+    width: 10px;
+    background-color: aqua;
+    margin-right: 20px;
+    display: none;
+}
+
+.sec4box5:hover .hover_bar5{
+    display: block;
+}
+.hover_bar5{
+    width: 10px;
+    background-color: aqua;
+    margin-right: 20px;
+    display: none;
+}
+
+.sec4box6:hover .hover_bar6{
+    display: block;
+}
+.hover_bar6{
+    width: 10px;
+    background-color: aqua;
+    margin-right: 20px;
+    display: none;
 }
 </style>
