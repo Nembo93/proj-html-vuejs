@@ -82,6 +82,11 @@ export default{
                 <div class="board_cell">
                     <span class=""><i class="fa-sharp fa-solid fa-xmark"></i></span>
                 </div>
+                <div class="board_cell">
+                    <button class="price_button">
+                        GET IT NOW
+                    </button>
+                </div>
             </div>
 
             <!-- Colonna 3 -->
@@ -119,6 +124,11 @@ export default{
                 </div>
                 <div class="board_cell">
                     <span class=""><i class="fa-sharp fa-solid fa-xmark"></i></span>
+                </div>
+                <div class="board_cell">
+                    <button class="active_button">
+                        GET IT NOW
+                    </button>
                 </div>
             </div>
 
@@ -158,6 +168,11 @@ export default{
                 <div class="board_cell">
                     <span class=""><i class="fa-solid fa-check"></i></span>
                 </div>
+                <div class="board_cell">
+                    <button class="price_button">
+                        GET IT NOW
+                    </button>
+                </div>
             </div>
             
 
@@ -169,6 +184,10 @@ export default{
 <style scoped>
 .col{
     width: calc(100% / 4);
+    color: gray;
+}
+.col h3{
+    color: black;
 }
 .choiced_item_bar{
     height: 3px;
@@ -184,5 +203,19 @@ export default{
 .board_cell_title{
     height: 100px;
     padding: 10px;
+}
+.fa-check{
+    color: lightblue;
+}
+.price_button{
+    padding: 10px 20px;
+    border: 1px solid lightgray;
+    color: gray;
+}
+.price_button{
+    padding: 10px 20px;
+    border: 1px solid lightgray;
+    color: white;
+    background-color: lightblue;
 }
 </style>
