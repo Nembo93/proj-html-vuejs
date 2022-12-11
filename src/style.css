@@ -21,6 +21,9 @@ p{
 .space_bet{
   justify-content: space-between;
 }
+.flex_col{
+  flex-direction: column;
+}
 .disp_block{
   display: block;
 }
@@ -32,4 +35,9 @@ p{
 }
 .mg_auto{
   margin: auto;
+}
+
+/* Variables */
+:root {
+  --primary_color: rgb(64, 196, 255) ;
 }

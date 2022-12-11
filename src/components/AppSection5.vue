@@ -16,7 +16,7 @@ export default{
                 <div class="sec5_card_info">
                     <div class="disp_flex space_bet">
                         <h4>Android developer</h4>
-                        <div class="price_tag">$20</div>
+                        <div class="price_tag">FREE</div>
                     </div>
                     <span class="courses_teacher">David Sanders</span>
                     <p class="courses_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, aliquam voluptates sunt nam ipsam molestias assumenda facilis veritatis delectus ab doloribus nobis explicabo ad ullam excepturi recusandae. Magnam, atque explicabo.</p>
@@ -28,10 +28,10 @@ export default{
                 <img src="../assets/process-img-3.png" class="disp_block" alt="">
                 <div class="sec5_card_info">
                     <div class="disp_flex space_bet">
-                        <h4>Android developer</h4>
-                        <div class="price_tag">$20</div>
+                        <h4>Web Designi</h4>
+                        <div class="price_tag">FREE</div>
                     </div>
-                    <span class="courses_teacher">David Sanders</span>
+                    <span class="courses_teacher">Jennifer Powell</span>
                     <p class="courses_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, aliquam voluptates sunt nam ipsam molestias assumenda facilis veritatis delectus ab doloribus nobis explicabo ad ullam excepturi recusandae. Magnam, atque explicabo.</p>
                     <span><i class="fa-solid fa-user"></i> 1 <i class="fa-solid fa-tag ml"></i> PROGRAMMING</span>
                 </div>
@@ -41,12 +41,12 @@ export default{
                 <img src="../assets/process-img-3.png" class="disp_block" alt="">
                 <div class="sec5_card_info">
                     <div class="disp_flex space_bet">
-                        <h4>Android developer</h4>
+                        <h4>Financial Modelling</h4>
                         <div class="price_tag">$20</div>
                     </div>
-                    <span class="courses_teacher">David Sanders</span>
+                    <span class="courses_teacher">Edward Bowmann</span>
                     <p class="courses_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, aliquam voluptates sunt nam ipsam molestias assumenda facilis veritatis delectus ab doloribus nobis explicabo ad ullam excepturi recusandae. Magnam, atque explicabo.</p>
-                    <span><i class="fa-solid fa-user"></i> 1 <i class="fa-solid fa-tag ml"></i> PROGRAMMING</span>
+                    <span><i class="fa-solid fa-user"></i> 1 <i class="fa-solid fa-tag ml"></i> BUSINESS</span>
                 </div>
             </div>
 

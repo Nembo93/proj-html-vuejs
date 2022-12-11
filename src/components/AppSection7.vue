@@ -23,7 +23,7 @@ export default{
     </section>
 </template>
 
-<style>
+<style scoped>
 section{
     border-top: 1px solid lightgray;
     padding-top: 70px;
