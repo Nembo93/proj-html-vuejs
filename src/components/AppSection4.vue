@@ -6,7 +6,6 @@ export default{
 
 <template>
     <section>
-        <h1>Section 4</h1>
         <div class="disp_flex">
             <div class="sec4_col sec4_col_left">
 
@@ -99,7 +98,6 @@ section{
 }
 .sec4_col{
     height: 500px;
-    border: 3px solid black;
 }
 .sec4_col_left{
     width: 30%;
@@ -125,7 +123,15 @@ section{
 }
 .sec4_box{
     height: calc(100% / 6);
-    border: 1px solid black;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+}
+.sec4_box h3{
+    margin-top: 30px;
+}
+.sec4box6{
+    border-bottom: 1px solid gray;
 }
 .sec4_col_right img{
     width: 150px;
@@ -137,11 +143,10 @@ section{
 
 .sec4box1:hover .hover_bar1{
     display: block;
-    color: aqua;
 }
 .hover_bar1{
     width: 10px;
-    background-color: aqua;
+    background-color: var(--primary_color);
     margin-right: 20px;
     display: none;
 }
@@ -151,7 +156,7 @@ section{
 }
 .hover_bar2{
     width: 10px;
-    background-color: aqua;
+    background-color: var(--primary_color);
     margin-right: 20px;
     display: none;
 }
@@ -161,7 +166,7 @@ section{
 }
 .hover_bar3{
     width: 10px;
-    background-color: aqua;
+    background-color: var(--primary_color);
     margin-right: 20px;
     display: none;
 }
@@ -171,7 +176,7 @@ section{
 }
 .hover_bar4{
     width: 10px;
-    background-color: aqua;
+    background-color: var(--primary_color) ;
     margin-right: 20px;
     display: none;
 }
@@ -181,7 +186,7 @@ section{
 }
 .hover_bar5{
     width: 10px;
-    background-color: aqua;
+    background-color: var(--primary_color) ;
     margin-right: 20px;
     display: none;
 }
@@ -191,7 +196,7 @@ section{
 }
 .hover_bar6{
     width: 10px;
-    background-color: aqua;
+    background-color: var(--primary_color);
     margin-right: 20px;
     display: none;
 }

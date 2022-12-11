@@ -16,8 +16,13 @@ export default {
         </div>
         
         <div>Providing Life Changing. Experience Through. Education. Class That Fit Your Busy Life. Closer to home</div>
-        <div>1-677-124-44227</div>
-        <div>Mon-Sat 8.00_18.00</div>
+        <div>
+          <span><i class="fa-solid fa-phone"></i></span>
+          1-677-124-44227
+        </div>
+        <div>
+          <span><i class="fa-regular fa-clock"></i></span>
+          Mon-Sat 8.00_18.00</div>
       </div>
 
       <!-- col-2 -->

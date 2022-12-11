@@ -51,7 +51,7 @@ export default{
             <!-- Colonna 2 -->
              <div class="col">
                 <div class="choiced_item_bar"></div>
-                <div class="board_cell">
+                <div class="board_cell offers_bg_color">
                     <div class="board_cell_title">
                         <img src="../assets/h5-custom-icon-7.png" alt="">
                     </div>
@@ -93,8 +93,8 @@ export default{
 
             <!-- Colonna 3 -->
             <div class="col">
-                <div class="choiced_item_bar"></div>
-                <div class="board_cell">
+                <div class="choiced_item_bar active_choice_bar"></div>
+                <div class="board_cell offers_bg_color">
                     <div class="board_cell_title">
                         <img src="../assets/h5-custom-icon-8.png" alt="">
                     </div>
@@ -137,7 +137,7 @@ export default{
             <!-- Colonna 4 -->
             <div class="col">
                 <div class="choiced_item_bar"></div>
-                <div class="board_cell">
+                <div class="board_cell offers_bg_color">
                     <div class="board_cell_title">
                         <img src="../assets/h5-custom-icon-9.png" alt="">
                     </div>
@@ -203,7 +203,7 @@ section{
 }
 .choiced_item_bar{
     height: 3px;
-    background-color: lightblue;
+    background-color: rgb(214, 242, 255);
 }
 .board_cell{
     border-bottom: 1px solid lightgray;
@@ -217,7 +217,7 @@ section{
     padding: 10px;
 }
 .fa-check{
-    color: lightblue;
+    color: var(--primary_color);
 }
 .price_button{
     padding: 10px 20px;
@@ -228,6 +228,12 @@ section{
     padding: 10px 20px;
     border: 1px solid lightgray;
     color: white;
-    background-color: lightblue;
+    background-color: var(--primary_color);
+}
+.active_choice_bar{
+    background-color: var(--primary_color);
+}
+.offers_bg_color{
+    background-color: rgb(247, 253, 255);
 }
 </style>

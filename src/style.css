@@ -40,4 +40,5 @@ p{
 /* Variables */
 :root {
   --primary_color: rgb(64, 196, 255) ;
+  --secondary_color: rgb(242, 248, 252) ;
 }

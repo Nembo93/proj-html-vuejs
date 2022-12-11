@@ -16,7 +16,7 @@ export default{
 <style scoped>
 a{
     text-decoration: none;
-    color: blue;
+    color: var(--primary_color);
 }
 
 .sec1 h2, p, a{

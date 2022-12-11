@@ -59,7 +59,7 @@ export default{
     padding-bottom: 30px;
 }
 .subject{
-    background-color: lightblue;
+    background-color: var(--secondary_color);
     width: auto;
     text-align: center;
     padding: 10px 20px;

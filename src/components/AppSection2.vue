@@ -35,6 +35,9 @@ export default{
 </template>
 
 <style scoped>
+section{
+    padding-bottom: 50px;
+}
 .section_2{
     display: flex;
 }
@@ -45,7 +48,6 @@ export default{
 }
 .box_section_2{
     width: 50%;
-    border: 1px solid black;
 }
 .box_section_2 h2{
     margin-top: 30px;
@@ -56,9 +58,11 @@ export default{
 }
 .sec2_count{
     font-size: 50px;
+    color: var(--primary_color);
 }
 .sec2_args{
     font-size: 30px;
+    color: var(--primary_color);
 }
 .sec2_args_box{
     width: 50%;

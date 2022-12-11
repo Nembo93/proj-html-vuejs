@@ -16,7 +16,7 @@ export default{
                 <div class="sec5_card_info">
                     <div class="disp_flex space_bet">
                         <h4>Android developer</h4>
-                        <div class="price_tag">FREE</div>
+                        <div class="price_tag price_tag_free">FREE</div>
                     </div>
                     <span class="courses_teacher">David Sanders</span>
                     <p class="courses_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, aliquam voluptates sunt nam ipsam molestias assumenda facilis veritatis delectus ab doloribus nobis explicabo ad ullam excepturi recusandae. Magnam, atque explicabo.</p>
@@ -29,7 +29,7 @@ export default{
                 <div class="sec5_card_info">
                     <div class="disp_flex space_bet">
                         <h4>Web Designing</h4>
-                        <div class="price_tag">FREE</div>
+                        <div class="price_tag price_tag_free">FREE</div>
                     </div>
                     <span class="courses_teacher">Jennifer Powell</span>
                     <p class="courses_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, aliquam voluptates sunt nam ipsam molestias assumenda facilis veritatis delectus ab doloribus nobis explicabo ad ullam excepturi recusandae. Magnam, atque explicabo.</p>
@@ -42,7 +42,7 @@ export default{
                 <div class="sec5_card_info">
                     <div class="disp_flex space_bet">
                         <h4>Financial Modelling</h4>
-                        <div class="price_tag">$20</div>
+                        <div class="price_tag price_tag_pay">$20</div>
                     </div>
                     <span class="courses_teacher">Edward Bowmann</span>
                     <p class="courses_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, aliquam voluptates sunt nam ipsam molestias assumenda facilis veritatis delectus ab doloribus nobis explicabo ad ullam excepturi recusandae. Magnam, atque explicabo.</p>
@@ -92,7 +92,6 @@ section > p{
 }
 
 .price_tag{
-    border: 1px solid black;
     width: 60px;
     border-radius: 20px;
     padding: 3px 0px;
@@ -101,5 +100,13 @@ section > p{
 }
 .ml{
     margin-left: 10px;
+}
+.price_tag_pay{
+    background-color: var(--primary_color);
+    color: white;
+}
+.price_tag_free{
+    background-color: rgb(255, 215, 64);
+    color: white;
 }
 </style>

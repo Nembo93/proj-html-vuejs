@@ -18,10 +18,9 @@ export default {
 <style scoped>
 .sec3{
     background-image: url(../assets/interactive-map-slider-img-1.png);
-    /* background-size: 100%;
-    background-repeat: no-repeat; */
-    background-color: azure;
+    background-color: var(--primary_color);
     padding: 70px 70px;
+    color: white;
 }
 .sec3 img, p{
     margin-bottom: 30px;
