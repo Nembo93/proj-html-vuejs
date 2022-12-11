@@ -25,10 +25,10 @@ export default{
             </div>
 
             <div class="sec5_card">
-                <img src="../assets/process-img-3.png" class="disp_block" alt="">
+                <img src="../assets/process-img-1.png" class="disp_block" alt="">
                 <div class="sec5_card_info">
                     <div class="disp_flex space_bet">
-                        <h4>Web Designi</h4>
+                        <h4>Web Designing</h4>
                         <div class="price_tag">FREE</div>
                     </div>
                     <span class="courses_teacher">Jennifer Powell</span>
@@ -38,7 +38,7 @@ export default{
             </div>
 
             <div class="sec5_card">
-                <img src="../assets/process-img-3.png" class="disp_block" alt="">
+                <img src="../assets/process-img-4.png" class="disp_block" alt="">
                 <div class="sec5_card_info">
                     <div class="disp_flex space_bet">
                         <h4>Financial Modelling</h4>

@@ -71,7 +71,7 @@ console.log(store.menu_voice)
 .header_button{
   text-decoration: none;
   color: white;
-  background-color: blue;
+  background-color: var(--primary_color);
   padding: 20px 30px;
   margin-bottom: 100px;
 }
@@ -80,13 +80,10 @@ console.log(store.menu_voice)
   padding-top: 30px;
 }
 .header_bar div{
-  border: 1px solid black;
   color: white;
 }
 .header_bar_left{
   width: 20%;
-  background-color: black;
-  /* text-align: center; */
   align-items: center;
 }
 .header_bar_left img{
