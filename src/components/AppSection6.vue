@@ -12,7 +12,7 @@ export default{
         </div>
 
         <!-- Tabella -->
-        <div class="container disp_flex">
+        <div class="disp_flex">
             <!-- Colonna 1 -->
             <div class="col">
                 <div class="choiced_item_bar"></div>

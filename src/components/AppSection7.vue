@@ -5,8 +5,28 @@ export default{
 </script>
 
 <template>
-    <h2>Section 7</h2>
+    <section>
+        <div class="disp_flex space_bet">
+        <div>
+            <img src="../assets/h5-client-5.png" alt="">
+        </div>
+        <div>
+            <img src="../assets/h5-client-1.png" alt="">
+        </div>
+        <div>
+            <img src="../assets/h5-client-2.png" alt="">
+        </div>
+        <div>
+            <img src="../assets/h5-client-1.png" alt="">
+        </div>
+    </div>
+    </section>
 </template>
 
 <style>
+section{
+    border-top: 1px solid lightgray;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
 </style>
