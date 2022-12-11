@@ -14,30 +14,39 @@ export default{
             <div class="sec5_card">
                 <img src="../assets/process-img-3.png" class="disp_block" alt="">
                 <div class="sec5_card_info">
-                    <h4>Android developer</h4>
-                    <span>David Sanders</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, aliquam voluptates sunt nam ipsam molestias assumenda facilis veritatis delectus ab doloribus nobis explicabo ad ullam excepturi recusandae. Magnam, atque explicabo.</p>
-                    <span><i class="fa-solid fa-user"></i> 1 <i class="fa-solid fa-tag"></i> PROGRAMMING</span>
+                    <div class="disp_flex space_bet">
+                        <h4>Android developer</h4>
+                        <div class="price_tag">$20</div>
+                    </div>
+                    <span class="courses_teacher">David Sanders</span>
+                    <p class="courses_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, aliquam voluptates sunt nam ipsam molestias assumenda facilis veritatis delectus ab doloribus nobis explicabo ad ullam excepturi recusandae. Magnam, atque explicabo.</p>
+                    <span><i class="fa-solid fa-user"></i> 1 <i class="fa-solid fa-tag ml"></i> PROGRAMMING</span>
                 </div>
             </div>
 
             <div class="sec5_card">
                 <img src="../assets/process-img-3.png" class="disp_block" alt="">
                 <div class="sec5_card_info">
-                    <h4>Android developer</h4>
-                    <span>David Sanders</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, aliquam voluptates sunt nam ipsam molestias assumenda facilis veritatis delectus ab doloribus nobis explicabo ad ullam excepturi recusandae. Magnam, atque explicabo.</p>
-                    <span><i class="fa-solid fa-user"></i> 1 <i class="fa-solid fa-tag"></i> PROGRAMMING</span>
+                    <div class="disp_flex space_bet">
+                        <h4>Android developer</h4>
+                        <div class="price_tag">$20</div>
+                    </div>
+                    <span class="courses_teacher">David Sanders</span>
+                    <p class="courses_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, aliquam voluptates sunt nam ipsam molestias assumenda facilis veritatis delectus ab doloribus nobis explicabo ad ullam excepturi recusandae. Magnam, atque explicabo.</p>
+                    <span><i class="fa-solid fa-user"></i> 1 <i class="fa-solid fa-tag ml"></i> PROGRAMMING</span>
                 </div>
             </div>
 
             <div class="sec5_card">
                 <img src="../assets/process-img-3.png" class="disp_block" alt="">
                 <div class="sec5_card_info">
-                    <h4>Android developer</h4>
-                    <span>David Sanders</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, aliquam voluptates sunt nam ipsam molestias assumenda facilis veritatis delectus ab doloribus nobis explicabo ad ullam excepturi recusandae. Magnam, atque explicabo.</p>
-                    <span><i class="fa-solid fa-user"></i> 1 <i class="fa-solid fa-tag"></i> PROGRAMMING</span>
+                    <div class="disp_flex space_bet">
+                        <h4>Android developer</h4>
+                        <div class="price_tag">$20</div>
+                    </div>
+                    <span class="courses_teacher">David Sanders</span>
+                    <p class="courses_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, aliquam voluptates sunt nam ipsam molestias assumenda facilis veritatis delectus ab doloribus nobis explicabo ad ullam excepturi recusandae. Magnam, atque explicabo.</p>
+                    <span><i class="fa-solid fa-user"></i> 1 <i class="fa-solid fa-tag ml"></i> PROGRAMMING</span>
                 </div>
             </div>
 
@@ -49,12 +58,42 @@ export default{
     
 </template>
 
-<style>
+<style scoped>
+h2{
+    margin-bottom: 20px;
+}
+section > p{
+    margin-bottom: 100px;
+}
 .sec5_card{
     border: 1px solid gray;
     width: calc((100% / 3) - 60px);
+    color: gray;
 }
 .sec5_card_info{
     padding: 10px;
+}
+.sec5_card img{
+    margin-bottom: 20px;
+}
+
+.courses_teacher{
+    margin-top: 20px;
+}
+.courses_info{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.price_tag{
+    border: 1px solid black;
+    width: 60px;
+    border-radius: 20px;
+    padding: 3px 0px;
+    font-size: 12px;
+    text-align: center;
+}
+.ml{
+    margin-left: 10px;
 }
 </style>

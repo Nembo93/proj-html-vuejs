@@ -78,7 +78,7 @@ export default{
                         <span class="disp_block"><i class="fa-solid fa-check"></i>People teach. Peaople learn. This is where their connect.</span>
                     </div>
 
-                    <div>
+                    <div class="col_right_img">
                         <img src="../assets/h12-tabs-icon-1.png" alt="">
                     </div>
                 </div>
@@ -90,6 +90,9 @@ export default{
 </template>
 
 <style scoped>
+*{
+    color: gray;
+}
 .sec4_col{
     height: 500px;
     border: 3px solid black;
@@ -120,10 +123,17 @@ export default{
     height: calc(100% / 6);
     border: 1px solid black;
 }
+.sec4_col_right img{
+    width: 150px;
+}
+.col_right_img{
+    padding: 20px;
+}
 
 
 .sec4box1:hover .hover_bar1{
     display: block;
+    color: aqua;
 }
 .hover_bar1{
     width: 10px;
