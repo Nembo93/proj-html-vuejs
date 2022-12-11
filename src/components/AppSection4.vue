@@ -93,6 +93,10 @@ export default{
 *{
     color: gray;
 }
+section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
 .sec4_col{
     height: 500px;
     border: 3px solid black;

@@ -59,6 +59,12 @@ export default{
 </template>
 
 <style scoped>
+section{
+    border-top: 1px solid lightgray;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-image: url(../assets/page-background-img.png);
+}
 h2{
     margin-bottom: 20px;
 }

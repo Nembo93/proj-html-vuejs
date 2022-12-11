@@ -6,8 +6,10 @@ export default{
 
 <template>
     <section>
-        <h2>Pricing Plans</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <div class="section_title">
+            <h2>Pricing Plans</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
 
         <!-- Tabella -->
         <div class="container disp_flex">
@@ -182,6 +184,16 @@ export default{
 </template>
 
 <style scoped>
+section{
+    border-top: 1px solid lightgray;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-image: url(../assets/page-background-img.png);
+}
+.section_title{
+    text-align: center;
+    margin-bottom: 50px;
+}
 .col{
     width: calc(100% / 4);
     color: gray;
@@ -212,7 +224,7 @@ export default{
     border: 1px solid lightgray;
     color: gray;
 }
-.price_button{
+.active_button{
     padding: 10px 20px;
     border: 1px solid lightgray;
     color: white;
