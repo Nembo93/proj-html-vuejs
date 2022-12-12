@@ -175,11 +175,14 @@ export default{
                         GET IT NOW
                     </button>
                 </div>
-            </div>
-            
-
-
+            </div>            
         </div>
+
+        <button class="my_scroll_button my_scroll_button5">
+            <i class="fa-solid fa-chevron-up"></i>
+            TOP
+        </button>
+
     </section>
 </template>
 
@@ -189,6 +192,7 @@ section{
     padding-top: 70px;
     padding-bottom: 70px;
     background-image: url(../assets/page-background-img.png);
+    position: relative;
 }
 .section_title{
     text-align: center;
@@ -235,5 +239,10 @@ section{
 }
 .offers_bg_color{
     background-color: rgb(247, 253, 255);
+}
+.my_scroll_button5{
+    position: absolute;
+    right: 0%;
+    top: 50%;
 }
 </style>

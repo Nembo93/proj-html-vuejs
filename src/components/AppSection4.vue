@@ -84,6 +84,12 @@ export default{
                 
             </div>
         </div>
+
+        <button class="my_scroll_button my_scroll_button3">
+            <i class="fa-solid fa-chevron-up"></i>
+            TOP
+        </button>
+
     </section>
 
 </template>
@@ -95,6 +101,7 @@ export default{
 section{
     padding-top: 70px;
     padding-bottom: 70px;
+    position: relative;
 }
 .sec4_col{
     height: 500px;
@@ -199,5 +206,14 @@ section{
     background-color: var(--primary_color);
     margin-right: 20px;
     display: none;
+}
+.my_scroll_button3{
+    position: absolute;
+    color: white;
+    top: 5%;
+    right: 0%;
+}
+.fa-chevron-up{
+    color: white;
 }
 </style>

@@ -52,7 +52,10 @@ export default{
 
         </div>
 
-
+        <button class="my_scroll_button my_scroll_button4">
+            <i class="fa-solid fa-chevron-up"></i>
+            TOP
+        </button>
         
     </section>
     
@@ -64,6 +67,7 @@ section{
     padding-top: 70px;
     padding-bottom: 70px;
     background-image: url(../assets/page-background-img.png);
+    position: relative;
 }
 h2{
     margin-bottom: 20px;
@@ -72,7 +76,7 @@ section > p{
     margin-bottom: 100px;
 }
 .sec5_card{
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     width: calc((100% / 3) - 60px);
     color: gray;
 }
@@ -108,5 +112,9 @@ section > p{
 .price_tag_free{
     background-color: rgb(255, 215, 64);
     color: white;
+}
+.my_scroll_button4{
+    position: absolute;
+    right: 0%;
 }
 </style>
