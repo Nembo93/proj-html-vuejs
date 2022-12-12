@@ -42,3 +42,16 @@ p{
   --primary_color: rgb(64, 196, 255) ;
   --secondary_color: rgb(242, 248, 252) ;
 }
+
+
+.my_scroll_button{
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: var(--primary_color);
+  border: none;
+}
+
+.fa-chevron-up{
+  display: block;
+}

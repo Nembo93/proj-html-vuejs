@@ -27,9 +27,10 @@ export default{
             </div>
         </div>
 
-        
-
-
+        <button class="my_scroll_button my_scroll_button2">
+            <i class="fa-solid fa-chevron-up"></i>
+            TOP
+        </button>
         
     </section>
 </template>
@@ -37,6 +38,12 @@ export default{
 <style scoped>
 section{
     padding-bottom: 50px;
+    position: relative;
+}
+.my_scroll_button2{
+    position: absolute;
+    right: 0%;
+    bottom: 5%;
 }
 .section_2{
     display: flex;
